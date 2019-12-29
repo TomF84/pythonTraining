@@ -1,0 +1,11 @@
+Index of exercises:
+
+Ex1.py: A first program (string "hello world")
+Ex2.py: Commenting
+Ex3.py: Numbers and math
+Ex4.py: Variables and names, string formatting ("Autos", autos, "eind")
+Ex5.py: More variables and string printing/formatting (f-string)
+Ex6.py: Strings and Text (format())
+Ex7.py: More formatting, text multiplication, end of line modification
+Ex8.py: Using a formatter (Might be useful for LaTeX tables!)
+Ex9.py: Multiline formatting (Triple """), could be used for Headers/Footers!
