@@ -1,3 +1,10 @@
+At start-up:
+import os
+os.chdir("C:\\Users\\faanb\\Desktop\\pythonTraining\\chapter_01")
+
+to run something:
+exec(open('ex9.py').read())
+
 Index of exercises:
 
 Ex1.py: A first program (string "hello world")
@@ -9,3 +16,6 @@ Ex6.py: Strings and Text (format())
 Ex7.py: More formatting, text multiplication, end of line modification
 Ex8.py: Using a formatter (Might be useful for LaTeX tables!)
 Ex9.py: Multiline formatting (Triple """), could be used for Headers/Footers!
+Ex10.py: Escape characters, useful table with all options. \\ \' \" \a \b \f \n \N{name} \r \t \uxxxx \Uxxxxxxxx \v \000 \xhh
+Ex11.py: Use input() to get information from users.
+Ex12.py: More input, but now more compact, pydoc (help in interpreter).
