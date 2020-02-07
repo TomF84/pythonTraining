@@ -1,18 +1,33 @@
 from sys import argv
 # First we gather the name of the script and input that is supposed to be a file in cwd
 script, filename = argv
-# Here we open the file that was used as argument to the script
-txt = open(filename)
-# Small message to inform that we will print the contents of the file.
-print(f"Here's your file {filename}:")
-print(txt.read())
 
-print("Type the filename again:")
-file_again = input("> ")
+print(f"We are going to erase {filename}:")
+print("If you don't want that, hit CTRL+C")
+print("If you do want that, hit RETURN")
 
-txt_again = open(file_again)
+input("?")
 
-print(txt_again.read())
+print("Opening the file")
+target = open(filename, 'w')
 
-txt.close()
-txt_again.close()
+print("Truncating the file. Goodbye!")
+target.truncate()
+
+print("Now I'm going to ask you for three lines.")
+
+line1 = input("line 1: ")
+line2 = input("line 2: ")
+line3 = input("line 3: ")
+
+print("I'm going to write those to the file.")
+
+target.write(f'{line1}\n{line2}\n{line3}\n')
+#target.write('\n')
+#target.write(line2)
+#target.write('\n')
+#target.write(line3)
+#target.write('\n')
+
+print("And finally we close it.")
+target.close()
