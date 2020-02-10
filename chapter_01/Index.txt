@@ -25,3 +25,7 @@ Ex12.py: More input, but now more compact, pydoc (help in interpreter).
 Ex13.py: Using arguments to a script (ValueError is thrown when not enough arguments are provided)
 Ex14.py: Combining input and argv to talk to the user (simple games can be constructed like that)
 Ex15.py: Input en files open/closing
+Ex16.py: Reading and writing of files, truncating them, modifying them
+Ex17.py: More file manipulations, short optimisation of scripts
+Ex18.py: First look at functions
+Ex19.py: More work on functinos
