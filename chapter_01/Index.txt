@@ -29,3 +29,4 @@ Ex16.py: Reading and writing of files, truncating them, modifying them
 Ex17.py: More file manipulations, short optimisation of scripts
 Ex18.py: First look at functions
 Ex19.py: More work on functinos
+Ex20.py: Functions and files 
