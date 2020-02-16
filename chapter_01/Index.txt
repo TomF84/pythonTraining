@@ -32,4 +32,6 @@ Ex19.py: More work on functinos
 Ex20.py: Functions and files 
 Ex21.py: Returning stuff from functions, puzzle: The functions are called inside out (starts on deepest level and works upwards)
 Ex22.py: Need to memorize stuff, but partially already done in this file.
-
+Ex23.py: Bytes, strings, encodings and decodings, a nice loop with a function calliny on itself repetitively.
+Ex24.py: A bit more work with formatting strings, working with functions, some new tools (passing a list to format!.
+Ex25.py: Working more with functions and importing a script
