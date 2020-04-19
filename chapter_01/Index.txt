@@ -54,4 +54,23 @@ Ex35a.py: 35, with try except for the int test.
 *Ex37.py: All kinds of examples, need to memorize these and make a script using all of them.
 **Ex38.py: Doing things to lists, introduction to classes. More reading online needed.
 Ex39.py: Dictionaries
-Ex40.py: 
+Ex40.py: Modules, Classes and Objects, introduction to object-oriented programming
+Ex40a.py: All the short examples in one file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
