@@ -2,6 +2,9 @@ At start-up:
 import os
 os.chdir("C:\\Users\\faanb\\Desktop\\pythonTraining\\chapter_01")
 
+*=this is not finished yet!
+**=The program is finished, but more lookup on the internet is required as exercise.
+
 to run something:
 exec(open('ex9.py').read())
 Or with arguments:
@@ -37,4 +40,18 @@ Ex24.py: A bit more work with formatting strings, working with functions, some n
 Ex25.py: Working more with functions and importing a script
 Ex26.py: A test fixing/debugging someone else's code.
 Ex27.py: Just an exercise outside of programming
-Ex28.py: Test for Boolean logics. Answers by me are in Ex28a.py Ex28.log is the output, this should equal Ex28a.py
+Ex28.py: Test for Boolean logics. Answers by me are in Ex28a.py, Ex28.log is the output, this should equal Ex28a.py
+Ex29.py: If statements
+Ex30.py: If and else statements
+Ex31.py: If and else statements: Decision making (small game)
+Ex32.py: For loops, lists
+Ex33.py: While loops
+Ex33a.py: Study drill 1 = 2 (making a function from the while loop)
+Ex34.py: Accessing elements of a list, indexing starts at 0.
+Ex35.py: Branches and functions.
+Ex35a.py: 35, with try except for the int test.
+*Ex36.py: Tips for loops and if - else statements in the book, exercise is to make a little game.
+*Ex37.py: All kinds of examples, need to memorize these and make a script using all of them.
+**Ex38.py: Doing things to lists, introduction to classes. More reading online needed.
+Ex39.py: Dictionaries
+Ex40.py: 
