@@ -50,19 +50,26 @@ Ex33a.py: Study drill 1 = 2 (making a function from the while loop)
 Ex34.py: Accessing elements of a list, indexing starts at 0.
 Ex35.py: Branches and functions.
 Ex35a.py: 35, with try except for the int test.
-*Ex36.py: Tips for loops and if - else statements in the book, exercise is to make a little game, at the moment the structure of the game is there, can be expanded.
+*Ex36.py: Tips for loops and if - else statements in the book, exercise is to make a little game, at the moment the game is working, it can be expanded.
 *Ex37.py: All kinds of examples, need to memorize these and make a script using all of them.
-**Ex38.py: Doing things to lists, introduction to classes. More reading online needed.
+Ex38.py: Doing things to lists, introduction to classes. More reading online needed.
 Ex39.py: Dictionaries
 Ex40.py: Modules, Classes and Objects, introduction to object-oriented programming
 Ex40a.py: All the short examples in one file
 Ex41.py: Leaking to Speak Object-Oriented: testing oop vocubulary.
 oop_test.py: Test to speak Object-Oriented.
-*Ex42.py: More classes and some inheritance concepts, may need more studying.
+Ex42.py: More classes and some inheritance concepts, may need more studying.
 Ex43.py: Making an OO game
-
-
-
+Ex44.py: Inheritence versus Composition,
+Ex44a.py: Implicit inheritance
+Ex44b.py: Override explicitly
+Ex44c.py: Alter before or after
+Ex44d.py: a-c combined
+Ex44e.py: Composition instead of inheritance
+*Ex45.py: Make your own game using classes and different files.
+Ex46.py: A Project skeleton. More online reading is required: about setup.py, nosetests and virtualenv.
+**Ex47.py: Automated testing. There is a bit more work needed to extend the game a bit.
+Ex48.py: Advanced user input
 
 
 
