@@ -70,6 +70,8 @@ Ex44e.py: Composition instead of inheritance
 Ex46.py: A Project skeleton. More online reading is required: about setup.py, nosetests and virtualenv.
 **Ex47.py: Automated testing. There is a bit more work needed to extend the game a bit.
 Ex48.py: Advanced user input
+**Ex49.py: Parsing lists of words into sentences. Need to work on making a class for the parser and write the game from Ex45.
+**Ex50.py: Your first website. There is work for reading into html5 and css3 and flask
 
 
 

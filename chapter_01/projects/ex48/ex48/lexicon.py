@@ -13,12 +13,28 @@ def scan(userInput):
     words = userInput.split()
     allWords = []
     
-    Directions = ['north', 'south', 'east', 'west', 'down', 'up', 'left', 'right', 'back']
+    categories = {
+                    "direction" : ['north', 'south', 'east', 'west', 'down', 'up', 'left', 'right', 'back'],
+                    "verb"      : ['go','stop','kill','eat'],
+                    "stop"      : ['the','in','off','from','at','it'],
+                    "noun"      : ['door','bear','princess','cabinet'],
+                 }
     
     for word in words:
-        if userInput in Directions:
-            allWords.append(('direction', userInput))
+        found = False
+        a = convert_number(word)
+        if a != None:
+            allWords.append(('number', a))
         else:
-            pass
+            for cat in categories:
+                if word.lower() in categories[cat]:
+                    allWords.append((cat, word))
+                    found = True
+                    break
+                else:
+                    pass
+            
+            if not found:
+                allWords.append(('error', word))
 
     return allWords
