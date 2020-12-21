@@ -74,7 +74,7 @@ punch the close button and blast the lock so the
 Gothons can't get out.  Now that the bomb is placed
 you run to the escape pod to get off this tin can.
 
-You rush throughthe ship desperately trying to make it to
+You rush through the ship desperately trying to make it to
 the escape pod before the whole ship explodes.  It seems
 like hardly any Gothons are on the ship, so your run is
 clear of interference.  You get to the chamber with the 
@@ -134,7 +134,7 @@ def load_room(name):
     """
     return globals().get(name)
     
-def name_room(name):
+def name_room(room):
     """
     Same possible security problem.  Can you trust room?
     What's a better solution tham this globals lookup?

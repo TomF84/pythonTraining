@@ -6,16 +6,16 @@ web = app.test_client()
 
 def test_index():
     rv = web.get('/', follow_redirects=True)
-    assert_equal(rv.status_code, 404)
-    
-    rv = web.get('/hello', follow_redirects=True)
     assert_equal(rv.status_code, 200)
-    assert_in(b"Fill Out This Form", rv.data)
+    assert_in(b"Central Corridor", rv.data)
     
-    data = {'name': 'Zed', 'greet': 'Hola'}
-    rv = web.post('/hello', follow_redirects=True, data=data)
-    assert_in(b"Zed", rv.data)
-    assert_in(b"Hola", rv.data)
+    rv = web.get('/game', follow_redirects=True)
+    assert_equal(rv.status_code, 200)
+    assert_in(b"Central Corridor", rv.data)
+    
+    data = {'value': 'Laser Weapon Armory'}
+    rv = web.post('/game', follow_redirects=True, data=data)
+    assert_in(b"Lbhe zbgure vf fb sng, jura fur fvgf nebhaq gur ubhfr", rv.data)
     
 if __name__ == "__main__":
     app.run()
